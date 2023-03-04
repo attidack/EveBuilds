@@ -1,17 +1,16 @@
-import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { ApolloProvider } from "react-apollo";
-import client from "./apollo";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Builds from "./components/Builds";
+import Login from "./components/Login";
 
-const App = () => {
+function App() {
   return (
-    <ApolloProvider client={client}>
-      <Router>
+    <Router>
+      <Switch>
         <Route exact path="/" component={Builds} />
-      </Router>
-    </ApolloProvider>
+        <Route exact path="/login" component={Login} />
+      </Switch>
+    </Router>
   );
-};
+}
 
 export default App;
