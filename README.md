@@ -1,38 +1,36 @@
-Project Name: EVE Builder
+# EveBuilds
 
-EVE Builder is a React application that allows users to make better decisions on build cost vs buy cost by using data from EVE Online's ESI. With EVE Builder, users can easily check in-game inventory to see what they need to purchase, copy the items they need to a clipboard, and factor in invention and reactions to build price. Additionally, users can select a warehouse station and a market station and use images and icons from EVE Online and its API to get a feel similar to eveonline.com.
-Features
+This project is designed to use data from Eve Online's ESI to make better decisions on build cost vs buy cost.
 
-    Use EVE Online SSO for users to login
-    Charge users monthly ISK for access
-    Check in-game inventory to see what needs to be purchased
-    Copy items needed to purchase to a clipboard to use the multi-buy feature in game
-    Factor in invention and reactions to build price
-    Select a warehouse station and a market station
-    Use images and icons from EVE Online and its API
-    Feel like eveonline.com
-    Use state and Redux for state management
+## App Use
 
-Spreadsheet Conversion
+The purpose of this application is to provide a tool to help players of Eve Online to optimize their builds by analyzing the cost of building items versus buying them from the market.
 
-EVE Builder is a conversion of a spreadsheet found at this link. The React app provides a more user-friendly and interactive experience for users.
-Database
+## Features
 
-EVE Builder uses MongoDB as its database.
-Packages
+- Use Eve Online SSO for user authentication
+- Charge users monthly ISK for access
+- Ability to check in-game inventory to see what needs to be purchased
+- Ability to copy the required items to a clipboard to use the multi-buy feature in the game
+- Ability to factor in invention and reactions to the build price
+- Ability to select a warehouse station and a market station
+- Use images and icons from Eve Online and its API
+- Feels like eveonline.com
+- Uses state and Redux for state management
 
-EVE Builder uses the following packages:
+## Converting the Spreadsheet to a React App
 
-    apollo
-    bcrypt
-    express
-    graphql
-    jsonwebtoken
-    mongoose
+This spreadsheet has been converted into a React app, which can be found [here](https://docs.google.com/spreadsheets/d/1WBeOO3p2iqY1yLVHbDCvaT8EcwZYt3DkZhv5k3XcLNk/edit?usp=sharing).
 
-Author
+## Database
 
-Jon Bird (GitHub: attidack)
-License
+MongoDB
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+## Packages
+
+- Apollo
+- Bcrypt
+- Express
+- GraphQL
+- Jsonwebtoken
+- Mongoose
