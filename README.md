@@ -1,32 +1,29 @@
 # EveBuilds
 
-This project is designed to use data from Eve Online's ESI to make better decisions on build cost vs buy cost.
-
-## App Use
-
-The purpose of this application is to provide a tool to help players of Eve Online to optimize their builds by analyzing the cost of building items versus buying them from the market.
+Welcome to EveBuilds, the ultimate tool for EVE Online players who want to make better decisions on build cost versus buy cost. With this app, you can easily access data from EVE Online's ESI and factor in invention and reactions to determine the optimal build price.
 
 ## Features
 
-- Use Eve Online SSO for user authentication
+- Use EVE Online SSO for users
 - Charge users monthly ISK for access
-- Ability to check in-game inventory to see what needs to be purchased
-- Ability to copy the required items to a clipboard to use the multi-buy feature in the game
-- Ability to factor in invention and reactions to the build price
-- Ability to select a warehouse station and a market station
-- Use images and icons from Eve Online and its API
-- Feels like eveonline.com
-- Uses state and Redux for state management
+- Check in-game inventory to see what you need to purchase
+- Copy the items you need to purchase to a clipboard to use the multi-buy feature in-game
+- Select a warehouse station and a market station
+- Use images and icons from EVE Online and its API to create a seamless user experience
+- Feel like you're on EVEOnline.com with the app's intuitive design
+- Use state and Redux to manage data and state
 
-## Converting the Spreadsheet to a React App
+## Conversion
 
-This spreadsheet has been converted into a React app, which can be found [here](https://docs.google.com/spreadsheets/d/1WBeOO3p2iqY1yLVHbDCvaT8EcwZYt3DkZhv5k3XcLNk/edit?usp=sharing).
+We've taken the original spreadsheet and converted it to a powerful React app. You can find the original spreadsheet here: https://docs.google.com/spreadsheets/d/1WBeOO3p2iqY1yLVHbDCvaT8EcwZYt3DkZhv5k3XcLNk/edit?usp=sharing.
 
-## Database
+## Technologies Used
 
-MongoDB
+### Database
 
-## Packages
+- MongoDB
+
+### Packages
 
 - Apollo
 - Bcrypt
@@ -34,3 +31,20 @@ MongoDB
 - GraphQL
 - Jsonwebtoken
 - Mongoose
+
+## Installation
+
+To install and use the app, simply follow these steps:
+
+1. Clone the repository: `git clone https://github.com/attidack/EveBuilds.git`
+2. Install the packages: `npm install`
+3. Start the server: `npm start`
+
+## About Me
+
+My name is Jon Bird, and I'm passionate about creating tools that help EVE Online players make better decisions. I've poured my heart and soul into this project, and I hope you find it as useful and exciting as I do.
+
+## Contributing
+
+If you're interested in contributing to the project, please feel free to submit a pull request. I'm always open to new ideas and ways to make the app better for the EVE Online community.
+
