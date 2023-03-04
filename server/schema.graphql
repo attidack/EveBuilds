@@ -1,0 +1,24 @@
+type Query {
+  user(id: ID!): User
+  build(id: ID!): Build
+  builds: [Build!]!
+}
+
+type User {
+  id: ID!
+  name: String!
+  builds: [Build!]!
+}
+
+type Build {
+  id: ID!
+  name: String!
+  owner: User!
+  materials: [Material!]!
+  isBlueprint: Boolean!
+}
+
+type Material {
+  name: String!
+  quantity: Int!
+}
